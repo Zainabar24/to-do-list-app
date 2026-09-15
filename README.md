@@ -6,7 +6,7 @@ MyTasks helps users create, manage, filter, and complete daily tasks through a m
 
 ---
 
-# 🚀 Features
+## 🚀 Features
 
 * ➕ Add new tasks
 * ✅ Mark tasks as completed
@@ -23,7 +23,7 @@ MyTasks helps users create, manage, filter, and complete daily tasks through a m
 
 ---
 
-# 🛠 Tech Stack
+## 🛠 Tech Stack
 
 | Technology       | Usage                          |
 | ---------------- | ------------------------------ |
@@ -36,7 +36,7 @@ MyTasks helps users create, manage, filter, and complete daily tasks through a m
 
 ---
 
-# 📂 Project Structure
+## 📂 Project Structure
 
 ```bash
 todo/
@@ -65,19 +65,13 @@ todo/
 │       └── page.tsx
 │
 ├── .gitignore
-├── eslint.config.mjs
-├── next.config.ts
-├── package.json
-├── postcss.config.mjs
-├── README.md
-└── tsconfig.json
 ```
 
 ---
 
-# ⚙️ Installation
+## ⚙️ Installation
 
-## 1️⃣ Clone Repository
+## 1. Clone Repository
 
 ```bash
 git clone https://github.com/Zainabar24/to-do-list-app.git
@@ -85,7 +79,7 @@ git clone https://github.com/Zainabar24/to-do-list-app.git
 
 ---
 
-## 2️⃣ Navigate to Project Directory
+### 2. Navigate to Project Directory
 
 ```bash
 cd to-do-list-app
@@ -93,7 +87,7 @@ cd to-do-list-app
 
 ---
 
-## 3️⃣ Install Dependencies
+### 3. Install Dependencies
 
 ```bash
 npm install
@@ -101,7 +95,7 @@ npm install
 
 ---
 
-## 4️⃣ Run Development Server
+### 4. Run Development Server
 
 ```bash
 npm run dev
@@ -112,94 +106,9 @@ Open the application in your browser:
 ```text
 http://localhost:3000
 ```
-
 ---
 
-# ▶️ Available Scripts
-
-## Start Development Server
-
-```bash
-npm run dev
-```
-
-Runs the application in development mode.
-
-## Create Production Build
-
-```bash
-npm run build
-```
-
-Creates an optimized production build.
-
-## Start Production Server
-
-```bash
-npm run start
-```
-
-Starts the application in production mode.
-
-## Run ESLint
-
-```bash
-npm run lint
-```
-
-Checks the project for code quality and styling issues.
-
----
-
-# 📄 Application Pages
-
-## 🏠 Home Page
-
-The home page provides the main Todo List dashboard.
-
-Features include:
-
-* Add tasks
-* Delete tasks
-* Toggle task completion
-* Filter tasks
-* View task statistics
-
-Route:
-
-```text
-/
-```
-
----
-
-## 📖 About Page
-
-The About page provides information about the MyTasks application and its purpose.
-
-Route:
-
-```text
-/about
-```
-
----
-
-## 📩 Contact Page
-
-The Contact page provides a styled form where users can enter their name, email, and message.
-
-Route:
-
-```text
-/contact
-```
-
-> Note: The contact form is currently a user interface only and does not submit data to a backend service.
-
----
-
-# 🧠 Application Workflow
+## 🧠 Application Workflow
 
 1. Enter a task in the input field.
 2. Click the **Add Task** button.
@@ -214,9 +123,9 @@ Route:
 
 ---
 
-# 📊 Task Management Logic
+## 📊 Task Management Logic
 
-## Add Task
+### Add Task
 
 New tasks are created with:
 
@@ -224,21 +133,21 @@ New tasks are created with:
 * A title
 * A default completed status of `false`
 
-## Complete Task
+### Complete Task
 
 Users can toggle a task between active and completed states.
 
-## Delete Task
+### Delete Task
 
 Users can remove a task from the list.
 
-## Filter Tasks
+### Filter Tasks
 
 The task list can be filtered according to its current status.
 
 ---
 
-# 🎨 User Interface
+## 🎨 User Interface
 
 The application uses a modern green-themed glassmorphism design featuring:
 
@@ -251,18 +160,9 @@ The application uses a modern green-themed glassmorphism design featuring:
 * Responsive layouts
 * Glassy navbar and footer
 * Consistent page styling
-
 ---
 
-# 💾 Data Storage
-
-Tasks are currently managed using React state.
-
-The task data is stored temporarily in the application's memory and will reset when the page is refreshed. No database or external storage service is currently connected.
-
----
-
-# 📸 Application Features
+## 📸 Application Features
 
 * Clean and minimal Todo List interface
 * Responsive design for desktop and mobile devices
@@ -274,11 +174,11 @@ The task data is stored temporarily in the application's memory and will reset w
 
 ---
 
-# 🤝 Contributing
+## 🤝 Contributing
 
 Contributions are welcome. If you would like to improve this project, feel free to fork the repository and submit a pull request.
 
-## Steps to Contribute
+### Steps to Contribute
 
 ### 1. Fork the repository
 
